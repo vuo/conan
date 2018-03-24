@@ -1,11 +1,13 @@
 dist: trusty
 sudo: false
+language: python
+python: "3.6"
 
 before_install:
     - pip install --user conan
 
 install:
-    - conan config install https://vuo.org/sites/default/files/conan-macos.zip
+    - conan config install https://vuo.org/sites/default/files/conan-linux.zip
     - conan user
 
 script:
