@@ -3,7 +3,7 @@ import platform
 
 # Echoes and executes a shell command.
 def system(command):
-    print('        ' + command)
+    # print('        ' + command)
     os.system(command)
 
 # Helper for fixLibs.
