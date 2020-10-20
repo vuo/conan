@@ -1,0 +1,14 @@
+[MESSAGES CONTROL]
+disable=line-too-long
+
+[BASIC]
+argument-naming-style=camelCase
+attr-naming-style=camelCase
+class-attribute-naming-style=camelCase
+class-naming-style=PascalCase
+const-naming-style=UPPER_CASE
+function-naming-style=camelCase
+inlinevar-naming-style=camelCase
+method-naming-style=camelCase
+module-naming-style=PascalCase
+variable-naming-style=camelCase

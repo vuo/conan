@@ -2,7 +2,7 @@ from conans import ConanFile
 
 class VuoUtilsConan(ConanFile):
     name = 'vuoutils'
-    version = '1.1'
+    version = '1.2'
     url = 'https://github.com/vuo/conan'
     license = 'https://github.com/vuo/conan/blob/master/LICENSE'
     description = "Common resources for Vuo's Conan packages"
